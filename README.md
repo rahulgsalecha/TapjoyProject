@@ -17,7 +17,9 @@ Instructions:
 4. To run unit test, run below commands to open coverage in html format:
    
    `" go test -v -coverpkg=./... -coverprofile=/tmp/profile.cov ./... "` 
+   
    `" go tool cover -html=/tmp/profile.cov -o /tmp/c_report.html "` 
+   
    `" open -a "Google Chrome" /tmp/c_report.html "` 
 
 Output:
