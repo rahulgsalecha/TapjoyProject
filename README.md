@@ -27,21 +27,25 @@ Output:
 
 1. go run validator/validator.go data/sample.txt
 
+```
 ==== VALID LINES ====
 rttr[mnop]qrst
 irttrj[asdfgh]zxcvbns
 
 ==== TOTAL VALID LINES: 2 ====
+```
 
 
 2. go run validator/validator.go data/input.txt
 
+```
 ==== VALID LINES ====
 Kjhgfdsawrfv[adgnhytsgdavsa]asfjyrdfzbnnbtahjh]ebvsafdbhrfsda
 poihkjnaviu[abwhergvbasiuhjgadbghwesfdvxcih[nwjkkjijkniubgqerqwuy]aehgkuyasgavs
 uxpvoytxfazjjhi[qogwhtzmwxvjwxreuz]zduoybbzxiwwggwu[lamifchqqwbphhsqnf]qrjdjwtnhsjqftnq
 
 ==== TOTAL VALID LINES: 3 ====
+```
 
 
 Testing:
