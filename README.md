@@ -53,8 +53,9 @@ Testing:
 
 Run following command for testing:
 
-"go test -v -coverpkg=./... -coverprofile=/tmp/profile.cov ./..."
+`"go test -v -coverpkg=./... -coverprofile=/tmp/profile.cov ./..."`
 
+```
 pkgs $go test -v -coverpkg=./... -coverprofile=/tmp/profile.cov ./...
 === RUN   Test_checkExternalSubstringsValidity
 === RUN   Test_checkExternalSubstringsValidity/Test_checkExternalSubstringsValidity_true_case_1
@@ -118,3 +119,4 @@ uxpvoytxfazjjhi[qogwhtzmwxvjwxreuz]zduoybbzxiwwggwu[lamifchqqwbphhsqnf]qrjdjwtnh
 PASS
 coverage: 85.7% of statements in ./...
 ok  	TapjoyProject/internal/pkgs/validator	0.008s	coverage: 85.7% of statements in ./...
+```
