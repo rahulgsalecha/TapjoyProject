@@ -14,7 +14,7 @@ Instructions:
     `" go run validator/validator.go data/sample.txt "`  
     
 3. Check the output
-4. To run unit test, run below commands to open coverage in html format:
+4. To run unit test, run below commands in /validator directory & open coverage in html format:
    
    `" go test -v -coverpkg=./... -coverprofile=/tmp/profile.cov ./... "` 
    
